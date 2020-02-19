@@ -27,12 +27,12 @@ header {
 }
 
 /* Parte superiore */
-#logo-img{
+#logo-img {
   width: 100px;
   vertical-align: middle;
 }
 
-#logo-txt{
+#logo-txt {
   font-size: 25px;
   color: #ffffff;
 }
@@ -43,7 +43,7 @@ header {
   margin: 16px 0;
 }
 
-.unread-number{
+.unread-number {
   display: inline-block;
   width: 50px;
   height: 50px;
