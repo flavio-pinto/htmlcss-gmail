@@ -70,12 +70,19 @@ header {
 
 .unread {
   background-color: #ffef96;
-  color: #7e4a35
+  color: #7e4a35;
+  font-weight: bold;
 }
 
 .margini-sezioni {
   display: inline-block;
   margin-right: 20px;
+  width: 200px;
+}
+
+.margini-testo-mail {
+  display: inline-block;
+  width: 200px;
 }
 
 .intro-txt::before {
