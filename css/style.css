@@ -1,0 +1,31 @@
+/* Tag universale */
+* {
+  box-sizing: border-box;
+}
+
+/* Impostazioni tags principali */
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  background-image: url('img/sfondo-legno.jpg');
+  background-size: cover;
+}
+
+main {
+  margin-bottom: 10px;
+}
+
+header {
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 10px;
+}
+
+
+
+/* Area footer */
+footer {
+  border-top: 2px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
