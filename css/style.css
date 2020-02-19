@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: 'Roboto Slab', serif;
-  background-image: url('img/sfondo-legno.jpg');
+  background-image: url('../img/sfondo-legno.jpg');
   background-size: cover;
 }
 
