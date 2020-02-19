@@ -7,6 +7,68 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="container">
+      <!-- Testata della pagina -->
+      <header>
+        <img id="logo-img" src="img/gmail-logo.png" alt="Gmail Logo">
+        <span id="logo-txt">Gmail</span>
+      </header>
+
+      <main>
+        <section id="search">
+          <!-- Pulsante ricerca messaggi -->
+          <input type="text" name="search" value="" placeholder="Cerca messaggi">
+          <input type="submit" name="submit" value="VAI">
+          <!-- Segnalatore messaggi non letti -->
+          <div id="unread-txt">
+            Hai <span class="unread-number">30</span> messaggi non letti
+          </div>
+        </section>
+        <!-- Lista Email -->
+        <section id="email-list">
+          <div class="email-row unread">
+            <input type="checkbox" name="message" value="" class="margini-sezioni">
+            <span title="Aggiungi ai preferiti" class="margini-sezioni">&star;</span>
+            <span class="margini-sezioni"><strong>Oggetto della mail</strong></span>
+            <span class="intro-txt">Testo della mail</span>
+          </div>
+
+          <div class="email-row unread">
+            <input type="checkbox" name="message" value="" class="margini-sezioni">
+            <span title="Aggiungi ai preferiti" class="margini-sezioni">&star;</span>
+            <span class="margini-sezioni"><strong>Oggetto della mail</strong></span>
+            <span class="intro-txt">Testo della mail</span>
+          </div>
+
+          <div class="email-row read">
+            <input type="checkbox" name="message" value="" class="margini-sezioni">
+            <span title="Aggiungi ai preferiti" class="margini-sezioni">&star;</span>
+            <span class="margini-sezioni"><strong>Oggetto della mail</strong></span>
+            <span class="intro-txt">Testo della mail</span>
+          </div>
+
+          <div class="email-row read">
+            <input type="checkbox" name="message" value="" class="margini-sezioni">
+            <span title="Aggiungi ai preferiti" class="margini-sezioni">&star;</span>
+            <span class="margini-sezioni"><strong>Oggetto della mail</strong></span>
+            <span class="intro-txt">Testo della mail</span>
+          </div>
+
+          <div class="email-row read">
+            <input type="checkbox" name="message" value="" class="margini-sezioni">
+            <span title="Aggiungi ai preferiti" class="margini-sezioni">&star;</span>
+            <span class="margini-sezioni"><strong>Oggetto della mail</strong></span>
+            <span class="intro-txt">Testo della mail</span>
+          </div>
+        </section>
+      </main>
+
+      <!-- Area footer -->
+      <footer>
+        <span id="footer-gmail">GMail</span>
+        <span id="footer-powered-by"> powered by Flavio</span>
+      </footer>
+    </div>
 
   </body>
 </html>
